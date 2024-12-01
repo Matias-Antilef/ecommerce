@@ -4,18 +4,17 @@ import { useEffect, useState } from "react";
 import styles from "./product.module.css";
 import { ProductModel } from "@/models/product.model";
 import Image from "next/image";
+import useFetch from "@/hooks/useFetch";
 
 export default function ProductInfo({ params }: { params: { id: string } }) {
-  const [data, setData] = useState<ProductModel>();
+  const [data, setData] = useState<ProductModel | null>();
+  const { fetchData } = useFetch<ProductModel>({ url: "/data.json" });
 
   useEffect(() => {
-    fetch("/data.json")
-      .then((res) => res.json())
-      .then((res) => {
-        setData(res[0]);
-      })
-      .catch((err) => console.error("Error al cargar los datos:", err));
-  }, [params.id]);
+    if (fetchData) {
+      setData(fetchData[0]);
+    }
+  }, [fetchData]);
 
   return (
     <div className={styles.container}>

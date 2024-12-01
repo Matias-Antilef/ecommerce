@@ -1,7 +1,7 @@
 "use client";
 
 import { SVGcart } from "@/assets/IconsSVG";
-import { PublicRoutes } from "@/models/routes";
+import { PublicRoutes } from "@/routes/routes";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -12,7 +12,7 @@ const CardProduct = ({
   price,
   discount,
   rating,
-  images,
+  imageMain,
 }: {
   id: number;
   title: string;
@@ -20,7 +20,7 @@ const CardProduct = ({
   price: number;
   discount: number;
   rating: number;
-  images: { id: number; url: string }[];
+  imageMain: string;
 }) => {
   return (
     <Link href={`${PublicRoutes.PRODUCT_INFO}/${id}`}>
@@ -32,7 +32,7 @@ const CardProduct = ({
           >
             <SVGcart />
           </button>
-          <Image src={images[0].url} alt="test" fill className="object-cover" />
+          <Image src={imageMain} alt="test" fill className="object-cover" />
         </div>
 
         <div className="pt-3">

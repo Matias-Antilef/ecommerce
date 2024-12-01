@@ -1,5 +1,5 @@
 import { SVGfind } from "@/assets/IconsSVG";
-import { PublicRoutes } from "@/models/routes";
+import { PublicRoutes } from "@/routes/routes";
 import Link from "next/link";
 
 const NavBar = ({ logo }: { logo: string }) => {
