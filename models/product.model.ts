@@ -1,7 +1,6 @@
 export type ProductCardModel = {
   id: number;
   title: string;
-  description: string;
   price: number;
   discount: number;
   rating: number;
@@ -17,7 +16,7 @@ export type ProductModel = {
   discount: number;
   rating: number;
   imageMain: string;
-  images: ImageModel;
+  images: ImageModel[];
   brand: string;
 };
 
