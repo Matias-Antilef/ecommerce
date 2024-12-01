@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "title": "Camiseta Básica de Algodón",
+    "description": "Camiseta de algodón 100% disponible en varios colores. Ideal para uso diario.",
+    "price": 19,
+    "discount": 10,
+    "rating": 4,
+    "images": [
+      { "id": 1, "url": "/test.png" },
+      { "id": 2, "url": "/test.png" }
+    ],
+    "brand": "CottonWear"
+  },
+  {
+    "id": 2,
+    "title": "Zapatillas Running Ultra",
+    "description": "Zapatillas diseñadas para correr con tecnología de amortiguación avanzada.",
+    "price": 79,
+    "discount": 15,
+    "rating": 5,
+    "images": [
+      { "id": 1, "url": "/test.png" },
+      { "id": 2, "url": "/test.png" }
+    ],
+    "brand": "UltraRun"
+  },
+  {
+    "id": 3,
+    "title": "Reloj Deportivo Smartwatch",
+    "description": "Reloj inteligente con funciones de seguimiento de actividad y monitoreo de salud.",
+    "price": 149,
+    "discount": 20,
+    "rating": 4,
+    "images": [
+      { "id": 1, "url": "/test.png" },
+      { "id": 2, "url": "/test.png" }
+    ],
+    "brand": "TechTime"
+  },
+  {
+    "id": 4,
+    "title": "Mochila Antirrobo",
+    "description": "Mochila con compartimentos ocultos y protección antirrobo, ideal para viajar.",
+    "price": 49,
+    "discount": 5,
+    "rating": 3,
+    "images": [
+      { "id": 1, "url": "/test.png" },
+      { "id": 2, "url": "/test.png" }
+    ],
+    "brand": "SafePack"
+  },
+  {
+    "id": 5,
+    "title": "Auriculares Bluetooth Pro",
+    "description": "Auriculares inalámbricos con cancelación de ruido y sonido de alta calidad.",
+    "price": 129,
+    "discount": 25,
+    "rating": 5,
+    "images": [
+      { "id": 1, "url": "/test.png" },
+      { "id": 2, "url": "/test.png" }
+    ],
+    "brand": "SoundPro"
+  },
+  {
+    "id": 6,
+    "title": "Chaqueta Impermeable Trekking",
+    "description": "Chaqueta ligera y resistente al agua, perfecta para actividades al aire libre.",
+    "price": 89,
+    "discount": 10,
+    "rating": 4,
+    "images": [
+      { "id": 1, "url": "/test.png" },
+      { "id": 2, "url": "/test.png" }
+    ],
+    "brand": "OutdoorPro"
+  },
+  {
+    "id": 7,
+    "title": "Lentes de Sol Polarizados",
+    "description": "Lentes con protección UV y diseño moderno, ideales para días soleados.",
+    "price": 39,
+    "discount": 20,
+    "rating": 5,
+    "images": [
+      { "id": 1, "url": "/test.png" },
+      { "id": 2, "url": "/test.png" }
+    ],
+    "brand": "SunShield"
+  },
+  {
+    "id": 8,
+    "title": "Botella Térmica de Acero",
+    "description": "Botella reutilizable que mantiene la temperatura de tus bebidas por horas.",
+    "price": 25,
+    "discount": 15,
+    "rating": 4,
+    "images": [
+      { "id": 1, "url": "/test.png" },
+      { "id": 2, "url": "/test.png" }
+    ],
+    "brand": "ThermoPlus"
+  },
+  {
+    "id": 9,
+    "title": "Teclado Mecánico RGB",
+    "description": "Teclado con retroiluminación personalizable y switches mecánicos de alta precisión.",
+    "price": 99,
+    "discount": 10,
+    "rating": 5,
+    "images": [
+      { "id": 1, "url": "/test.png" },
+      { "id": 2, "url": "/test.png" }
+    ],
+    "brand": "KeyMaster"
+  },
+  {
+    "id": 10,
+    "title": "Cargador Rápido USB-C",
+    "description": "Cargador compacto con tecnología de carga rápida para dispositivos USB-C.",
+    "price": 29,
+    "discount": 10,
+    "rating": 4,
+    "images": [
+      { "id": 1, "url": "/test.png" },
+      { "id": 2, "url": "/test.png" }
+    ],
+    "brand": "QuickCharge"
+  }
+]
